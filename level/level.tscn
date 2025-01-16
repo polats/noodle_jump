@@ -1242,6 +1242,17 @@ position = Vector2(30, 0)
 [node name="Coin3" parent="Coins/CoinsHorizontal2" instance=ExtResource("4")]
 position = Vector2(60, 0)
 
+[node name="CoinsHorizontal4" type="Node2D" parent="Coins"]
+position = Vector2(200, 581)
+
+[node name="Coin" parent="Coins/CoinsHorizontal4" instance=ExtResource("4")]
+
+[node name="Coin2" parent="Coins/CoinsHorizontal4" instance=ExtResource("4")]
+position = Vector2(30, 0)
+
+[node name="Coin3" parent="Coins/CoinsHorizontal4" instance=ExtResource("4")]
+position = Vector2(60, 0)
+
 [node name="CoinsArc1" type="Node2D" parent="Coins"]
 position = Vector2(307, 594)
 
@@ -1404,6 +1415,12 @@ texture = ExtResource("15")
 z_index = 1
 material = ExtResource("18")
 position = Vector2(129, 588)
+texture = ExtResource("15")
+
+[node name="T11" type="Sprite2D" parent="Trees"]
+z_index = 1
+material = ExtResource("18")
+position = Vector2(433, 586)
 texture = ExtResource("15")
 
 [node name="Bushes" type="Node" parent="."]
