@@ -43,3 +43,13 @@ Check out this demo on the asset library: https://godotengine.org/asset-library/
 ## Music
 
 [*Pompy*](https://soundcloud.com/madbr/pompy) by Hubert Lamontagne (madbr)
+
+# Running Smolagents
+
+## Install Required software
+
+* install miniconda / run anaconda prompt
+* conda create --name smol_env python=3.10
+* conda activate smol_env
+* ```pip install -r requirements.txt```
+* python smol.py
